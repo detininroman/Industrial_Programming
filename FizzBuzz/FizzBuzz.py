@@ -29,7 +29,7 @@ def mul_3(num):
     else:
         return mul_3(summary)
 
- def test_normal():
+def test_normal():
     arr, output = [1, 2, 3, 5, 15], []
     fizz_buzz(arr, output)
     print (output == [1, 2, 'buzz', 'fizz', 'fizzbuzz'])
