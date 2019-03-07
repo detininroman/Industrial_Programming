@@ -29,6 +29,17 @@ def mul_3(num):
     else:
         return mul_3(summary)
 
+def fizz_buzz(numbers, output):
+    for i in numbers:
+        if (mul_3(i) and mul_5(i)):
+            output.append('fizzbuzz')
+        elif (mul_3(i)):
+            output.append('buzz')     
+        elif (mul_5(i)):
+            output.append('fizz')
+        else:
+            output.append(i)
+
 def test_normal():
     arr, output = [1, 2, 3, 5, 15], []
     fizz_buzz(arr, output)
