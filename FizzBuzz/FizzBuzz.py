@@ -13,7 +13,7 @@ def mul_5(num):
         return False
     return (str(num)[-1] == '0' or str(num)[-1] == '5')
 
- def mul_3(num):
+def mul_3(num):
     if (is_int(num) == False):
         return False
     if (is_zero(num)):
