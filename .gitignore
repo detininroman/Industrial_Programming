@@ -1,0 +1,4 @@
+.git
+__pycache__/
+fizzbuzz/__pycache__/
+./fizz_buzz/ipynb_checkpoints/
