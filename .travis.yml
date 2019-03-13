@@ -1,6 +1,5 @@
-dist: xenial
 language: python
 python: 3.7
 
 script: 
-  - python FizzBuzz/FizzBuzz.py
+  - python test.py
