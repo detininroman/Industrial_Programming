@@ -1,4 +1,4 @@
 .git
 __pycache__/
-fizzbuzz/__pycache__/
+.DS_Store
 ./fizz_buzz/ipynb_checkpoints/
