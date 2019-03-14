@@ -1,0 +1,5 @@
+a.out
+.git
+__pycache__/
+.DS_Store
+./fizz_buzz/ipynb_checkpoints/
